@@ -1,0 +1,127 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.2em;
+	background-color: lightblue
+}
+
+#wrapper{
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url("images/midnight.gospel3");
+	background-repeat: no-repeat;
+	background-position: right;top: 
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	padding:3em;
+
+}
+
+.lead{
+	color: darkblue
+}
+
+p{
+	margin-bottom: 1em; 
+}
+
+h1 img{
+	max-width: 100%;
+	max-height: 80%;
+}
+
+header button{
+	background-color: gray;
+	background-image: url("images/play-arrow.svg");
+	background-repeat: no-repeat;
+	background-position: left;
+	border: none;
+	color: white;
+	padding: 7px;
+	padding-left: 25px; 
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+nav{
+	background-color: gray;
+	padding: 11px;
+	margin-bottom: 2em;
+}
+
+nav li {
+	display: inline;
+	border-right: solid 1px darkgray;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav li: last-child{
+	border: none;
+}
+
+nav a {
+	color: green;
+}
+
+nav a:hover{
+	color: blue;
+}
+
+.col{
+	width: 48%;
+}
+
+
+.col-left{
+	float: left;
+}
+
+.col-right{
+	float: right;
+}
+
+footer{
+	clear: both;
+}
+
+h2{
+	font-size: 1.5rem;
+	text-transform: uppercase; 
+	margin-bottom: 0.5em;
+}
+
+h3{
+	font-weight: bold;
+}
+
+.tv-ma{
+	border: solid 1px black;
+	padding: 0 3px;
+	font-size: smaller;
+
+}
+
+main{
+	margin-bottom: 3em;
+	overflow: auto;
+}
+
+.episode-card{
+	width: 25%;
+	
+
+}
+
+.episodes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.responsive-img{
+	width: 100%
+}
